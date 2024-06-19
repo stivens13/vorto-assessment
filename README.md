@@ -1,6 +1,6 @@
 how to run
 
-```python evaluator.py --cmd "python3 src/main.py" --problemDir problemset/```
+```python3 evaluator.py --cmd "python3 src/main.py" --problemDir problemset/```
 
 Resource used:
 1. https://en.wikipedia.org/wiki/Vehicle_routing_problem
