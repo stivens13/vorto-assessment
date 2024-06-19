@@ -89,8 +89,7 @@ class VRP:
         return 'VRP'
 
     def __str__(self):
-        nl = '\n'
-        return f'Loads: {[f'{s.__str__()}{nl}' for s in self.loads]}'
+        return f'Loads: {self.loads}'
 
     def toProblemString(self):
         s = "loadNumber pickup dropoff\n"
